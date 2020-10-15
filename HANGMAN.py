@@ -6,7 +6,7 @@ while True:
         print("")
         wordList = ['python', 'java', 'kotlin', 'javascript','rainbow', 'computer', 'science', 'programming',  
          'python', 'mathematics','c++','php','Djnago', 'player', 'condition',  
-         'reverse', 'water', 'board', 'geeks']
+         'reverse', 'water', 'board', 'geeks','ML','AI','webDeveloper']
         guess = random.choice(wordList)
         dashStr = "-" * len(guess)
         print(dashStr)
