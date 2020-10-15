@@ -6,7 +6,7 @@ while True:
         print("")
         wordList = ['python', 'java', 'kotlin', 'javascript','rainbow', 'computer', 'science', 'programming',  
          'python', 'mathematics','c++','php','Djnago', 'player', 'condition',  
-         'reverse', 'water', 'board', 'geeks']
+         'reverse', 'water', 'board', 'geeks','Node js','Express js']
         guess = random.choice(wordList)
         dashStr = "-" * len(guess)
         print(dashStr)
@@ -58,6 +58,7 @@ while True:
                     pass
                 else:
                     print("")
+                    print("Changes by chotu")
                     print(dashStr)
             if lives == 0:
                 print("You are hanged!")
